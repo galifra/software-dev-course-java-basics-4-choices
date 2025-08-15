@@ -19,6 +19,7 @@ public class CollectionChoiceExercises {
     public void MakeStudentCollection() {
         // Create an appropriate collection variable for holding a list of student names
         // that will be added to and removed from during program execution.
+        java.util.ArrayList<String> studentNames;
     }
 
     public void MakeLoggedInUsersCollection() {
@@ -26,11 +27,13 @@ public class CollectionChoiceExercises {
         // unique logged in usernames where adding a username that's already
         // present is ignored and checking if a user is in the collection can
         // be done very quickly.
+        java.util.HashSet<String> loggedInUsers;
     }
 
     public void MakeEmployeeAccessCodesCollection() {
         // Create an appropriate collection variable for holding a set of
         // key-value pairs where they key is an employee name (String) and the
         // value is an employee access code (String.)
+        java.util.HashMap<String, String> employeeAccessCodes;
     }
 }
